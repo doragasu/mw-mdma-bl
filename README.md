@@ -27,11 +27,12 @@ $ mdma -b
 When in DFU bootloader mode, the two LEDs in the programmer board will start blinking alternatively, indicating that the board is ready to accept DFU commands.
 
 ## Flashing the application firmware
-When in DFU bootloader mode, to burn a new firmware, you can use DFU tools such as Atmel FLIP for Windows of dfu-programmer for Unix. Programming the firmware using dfu-programmer usually requires 3 commands:
+When in DFU bootloader mode, to burn a new firmware, you can use DFU tools such as [Atmel FLIP for Windows](https://www.atmel.com/tools/FLIP.aspx) of [dfu-programmer](https://github.com/dfu-programmer/dfu-programmer) for Unix/Linux/Mac. Programming the firmware using `dfu-programmer` usually requires 3 commands:
 ```
 $ dfu-programmer at90usb646 erase
 $ dfu-programmer at90usb646 flash mdma-fw.hex
 $ dfu-programmer at90usb646 reset
+```
 
 If you are inside of the mw-mdma-fw source tree, you can burn the latest firmware just by executing:
 
