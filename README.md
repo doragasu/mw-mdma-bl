@@ -1,4 +1,8 @@
-# mw-mdma-fw
+# WARNING: THIS PROJECT HAS MOVED
+
+You can find the most recent version at the [mw-mdma-bl GitLab project page](https://gitlab.com/doragasu/mw-mdma-bl). This repository will be kept as is, and will not be updated anymore.
+
+# mw-mdma-bl
 Bootloader for the MegaWiFi Programmer, to be used along with the programmer firmware ([mw-mdma-fw](https://github.com/doragasu/mw-mdma-fw/)).
 
 # Building
